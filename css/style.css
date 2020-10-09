@@ -1,0 +1,135 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #004d7a;
+}
+
+/* for whole container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  margin-top: 50px;
+  box-shadow: 10px 10px 20px rgb(29, 28, 28);
+}
+
+/* for form header part */
+.header-content {
+  max-width: 100%;
+  height: 270px;
+  position: relative;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793);
+}
+
+/* for form welcome content in header section */
+.welcome-content {
+  margin-top: 90px;
+  padding-left: 40px;
+  padding-right: 35px;
+  color: whitesmoke;
+}
+
+.welcome-content > p-1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.welcome-content > p {
+  font-size: 14px;
+}
+
+/* for form create Acc link in headre section */
+.header-content > a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+  padding-left: 20px;
+  bottom: 20px;
+  position: absolute;
+}
+
+/* for form footer part */
+.footer-content {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+/* for form user login section in footer part */
+.login-section > h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #014069;
+}
+
+.login-section > input {
+  padding: 10px;
+  margin-top: 8px;
+  width: 300px;
+  background-color: #008291;
+  border: 0;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  outline: none;
+  box-sizing: border-box;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+::placeholder {
+  color: white;
+}
+
+/* for form usern help section */
+.help-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.help-section > a {
+  font-size: 13px;
+  padding: 10px 0px;
+  text-decoration: none;
+  color: #014069;
+}
+
+/* for user login button */
+.login {
+  background-color: #042141;
+  padding: 9px 32px;
+  border: 0;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.login:hover {
+  background-color: #008291;
+}
